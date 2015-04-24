@@ -6,6 +6,9 @@ gem 'rails'
 gem 'bcrypt'
 gem 'nokogiri'
 gem 'faker'
+gem 'carrierwave'
+gem 'mini_magick'
+gem 'fog'
 gem 'will_paginate'
 gem 'bootstrap-will_paginate'
 # Use SCSS for stylesheets
@@ -47,6 +50,7 @@ group :development, :test do
   gem 'web-console'
   gem 'spring'
   gem 'guard'
+  gem 'better_errors'
 end
 group :test do
   gem 'minitest-reporters'
